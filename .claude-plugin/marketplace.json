@@ -51,6 +51,16 @@
         "sha": "cff79474a03f4246863260ed21de590b61852c80"
       },
       "description": "/narrator (o clic en el footer): al terminar cada turno Claude dice en voz alta lo que hizo, en tu idioma, con la mejor voz gratuita del sistema. De terceros (midudev), referenciado desde su repo."
+    },
+    {
+      "name": "after",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/midudev/better-claude.git",
+        "path": "plugins/after",
+        "sha": "cff79474a03f4246863260ed21de590b61852c80"
+      },
+      "description": "Cola de prompts: /after <tarea> la ejecuta cuando Claude termina la actual, sin desviarlo. /after sin argumentos abre la cola para editarla. De terceros (midudev), referenciado desde su repo."
     }
   ]
 }
