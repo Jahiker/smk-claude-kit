@@ -28,6 +28,12 @@ Este marketplace también sirve [`ponytail`](https://github.com/DietrichGebert/p
 claude plugin install ponytail@smk-claude-kit
 ```
 
+Y [`image-preview`](https://github.com/midudev/better-claude/tree/main/plugins/image-preview) (de terceros, midudev; versión fijada): pasa el puntero sobre un `[Image #N]` pegado y ves la imagen. Necesita la interfaz fullscreen (`"tui": "fullscreen"` en settings o `/config`). En macOS y Windows no requiere nada extra; en Linux, `python3-tk` e ImageMagick.
+
+```bash
+claude plugin install image-preview@smk-claude-kit
+```
+
 **Verifica:** abre Claude Code → `/plugin` debe mostrar `smk-tcc` *enabled*, y en `/mcp` deben aparecer `context7`, `sentry`, `markitdown`, `playwright` y `codegraph`. Sentry pide login OAuth la primera vez; codegraph tarda un poco la primera vez (descarga el paquete).
 
 ## 3. Actualizar
@@ -35,6 +41,7 @@ claude plugin install ponytail@smk-claude-kit
 ```bash
 claude plugin update smk-tcc
 claude plugin update ponytail
+claude plugin update image-preview
 ```
 
 ## Qué incluye
