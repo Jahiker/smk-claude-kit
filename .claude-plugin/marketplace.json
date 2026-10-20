@@ -33,16 +33,6 @@
       "description": "Pasa el puntero sobre un [Image #N] pegado para ver la imagen. Requiere la interfaz fullscreen (\"tui\": \"fullscreen\"). De terceros (midudev), referenciado desde su repo."
     },
     {
-      "name": "commit",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/midudev/better-claude.git",
-        "path": "plugins/commit",
-        "sha": "cff79474a03f4246863260ed21de590b61852c80"
-      },
-      "description": "/commit pregunta commit + push, solo commit o rama nueva, y divide los cambios en Conventional Commits (inglés, sin co-authored-by) usando Haiku. De terceros (midudev), referenciado desde su repo."
-    },
-    {
       "name": "narrator",
       "source": {
         "source": "git-subdir",
